@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import url('./variables.css');
+
+@import url('./vendor/normalize.css');
+
+@import url('./global/fonts.css');
+@import url('./global/reboot.css');
+@import url('./global/typography.css');
+
+@import url('./blocks/page-header.css');
+@import url('./blocks/wrapper.css');
+@import url('./blocks/page-main.css');
+@import url('./blocks/tabs-block.css');
+@import url('./blocks/form.css');
+@import url('./blocks/map.css');
+@import url('./blocks/input-wrapper.css');
+@import url('./blocks/range-slider.css');
+
+@import url('./global/utils.css');
